@@ -1,4 +1,8 @@
 services:
-  server:
+  project-a:
+    build:
+      target: start
+
+  project-b:
     build:
       target: start

@@ -1,8 +1,16 @@
 version: "3.9"
 
 services:
-  server:
+  project-a:
+    container_name: project-a
     build:
-      context: ./apps/server/
+      context: ./apps/project-a/
     ports:
       - 3000:3000
+
+  project-b:
+    container_name: project-b
+    build:
+      context: ./apps/project-b/
+    ports:
+      - 3001:3000

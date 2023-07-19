@@ -1,6 +1,12 @@
 services:
-  server:
+  project-a:
     build:
       target: dev
     volumes:
-      - ./apps/server/src/:/app/src/
+      - ./apps/project-a/src/:/app/src/
+
+  project-b:
+    build:
+      target: dev
+    volumes:
+      - ./apps/project-b/src/:/app/src/

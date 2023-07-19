@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "apps/server"
+    "apps/project-a",
+    "apps/project-b"
   ]
 }
